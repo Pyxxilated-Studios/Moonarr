@@ -43,7 +43,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get name
-        run: echo "NAME=$(echo '${{ matrix.file }}' | sed 's/Dockerfile.//g'" >> $GITHUB_OUTPUT
+        run: echo "NAME=$(echo '${{ matrix.file }}' | sed 's/Dockerfile.//g')" >> $GITHUB_OUTPUT
         id: name
 
       - name: Extract metadata (tags, labels) for Docker
