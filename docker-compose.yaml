@@ -1,0 +1,31 @@
+
+networks:
+  internal:
+
+services:
+  ui:
+    container_name: ui
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    networks:
+      - internal
+    ports:
+      - 3000:3000
+    depends_on:
+      - api
+    environment:
+      API_URL: "http://api:8000"
+
+  api:
+    container_name: api
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    volumes:
+      - ./config:/config
+      - ./downloads:/downloads
+    networks:
+      - internal
+    ports:
+      - 8000:8000

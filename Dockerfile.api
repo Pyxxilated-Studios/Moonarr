@@ -1,0 +1,18 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
+
+COPY . .
+
+VOLUME /config
+
+ENV PROFILE_PATH="/config"
+ENV TOKEN_PATH="/config"
+
+EXPOSE 8000
+
+CMD ["uvicorn", "api.main:api", "--host", "0.0.0.0", "--port", "8000"]

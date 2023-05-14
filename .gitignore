@@ -1,0 +1,9 @@
+# Developer settings
+.env
+.venv
+.vscode
+
+# Paths used often during development
+config
+download
+downloads

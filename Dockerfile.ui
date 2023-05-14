@@ -1,0 +1,21 @@
+FROM node:19.5.0-bullseye-slim as ui
+
+WORKDIR /ui
+
+# Generate cached dependencies
+COPY ./ui/package.json ./ui/yarn.lock ./
+RUN yarn install --network-timeout 600000
+
+COPY ./ui .
+RUN yarn build
+
+FROM oven/bun
+
+COPY --from=ui /ui/build .
+COPY ./ui/package.json .
+
+EXPOSE 3000
+
+ENV PUBLIC_API_URL="/api"
+
+CMD [ "bun", "index.js" ]
