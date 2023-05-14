@@ -7,7 +7,6 @@ from tidal_dl import (
     downloadCover,
     downloadTracks,
     downloadAlbumInfo,
-    Artist,
 )
 from prometheus_client import Histogram
 import logging
