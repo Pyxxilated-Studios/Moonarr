@@ -1,0 +1,22 @@
+version: 2
+updates:
+  - package-ecosystem: "pip" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
+    labels:
+      - "api"
+      - "dependencies"
+      
+ - package-ecosystem: "yarn"
+    directory: "/ui"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "ui"
+      - "dependencies"
+
+ - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
