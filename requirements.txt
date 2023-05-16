@@ -29,5 +29,5 @@ starlette==0.26.1
 tidal-dl==2022.10.31.1
 typing_extensions==4.5.0
 urllib3==1.26.15
-uvicorn==0.21.1
+uvicorn==0.22.0
 wcwidth==0.2.6
