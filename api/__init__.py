@@ -14,7 +14,12 @@ import logging
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 
-logging.basicConfig(level=logging.DEBUG, format="%(levelname)s:\t%(message)s")
+logLevel = os.environ.get("LOG_LEVEL", default="DEBUG")
+if logLevel.upper() not in logging.getLevelNamesMapping():
+    print("Invalid 'LOG_LEVEL'")
+    sys.exit(1)
+
+logging.basicConfig(level=logLevel, format="%(levelname)s:\t%(message)s", force=True)
 
 profilePath = os.environ.get("PROFILE_PATH")
 tokenPath = os.environ.get("TOKEN_PATH")
@@ -24,7 +29,11 @@ if None in (profilePath, tokenPath):
     sys.exit(1)
 
 
-SETTINGS.read(profilePath + "/.tidal-dl.json")
+def getProfilePath() -> str:
+    return profilePath + "/.tidal-dl.json"
+
+
+SETTINGS.read(getProfilePath())
 TOKEN.read(tokenPath + "/.tidal-dl.token.json")
 
 api = FastAPI()
@@ -46,8 +55,10 @@ if not apiKey.isItemValid(SETTINGS.apiKeyIndex):
     SETTINGS.apiKeyIndex = 4
     SETTINGS.save()
     TIDAL_API.apiKey = apiKey.getItem(SETTINGS.apiKeyIndex)
-    loginByWeb()
+    if not loginByWeb():
+        sys.exit(1)
 elif not loginByConfig():
-    loginByWeb()
+    if not loginByWeb():
+        sys.exit(1)
 
 logging.info("Successfully logged in!")
