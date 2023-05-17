@@ -15,7 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 
 logLevel = os.environ.get("LOG_LEVEL", default="DEBUG")
-if logLevel.upper() not in logging.getLevelNamesMapping():
+if logLevel.upper() not in logging._nameToLevel:
     print("Invalid 'LOG_LEVEL'")
     sys.exit(1)
 
