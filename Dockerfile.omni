@@ -11,11 +11,27 @@ RUN yarn build
 
 FROM oven/bun
 
+RUN apt update -y
+RUN apt install -y python3 python3-pip
+
+COPY run.sh .
+COPY requirements.txt .
+
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
+
+COPY api api
+
 COPY --from=ui /ui/build .
 COPY ./ui/package.json .
 
+VOLUME /config
+
+ENV PROFILE_PATH="/config"
+ENV TOKEN_PATH="/config"
+
 EXPOSE 3000
+EXPOSE 8000
 
 ENV API_URL="http://localhost:8000"
 
-CMD [ "bun", "index.js" ]
+CMD ["bash", "/home/bun/app/run.sh"]

@@ -21,7 +21,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        file: [ 'Dockerfile.ui', 'Dockerfile.api' ]
+        file: [ 'Dockerfile.ui', 'Dockerfile.api', 'Dockerfile.omni' ]
 
     permissions:
       contents: read
