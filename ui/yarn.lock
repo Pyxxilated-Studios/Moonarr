@@ -258,10 +258,10 @@
   dependencies:
     import-meta-resolve "^3.0.0"
 
-"@sveltejs/kit@^1.20.0":
-  version "1.20.0"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.20.0.tgz#5deed969badda2cd9d4c68c580362c492425be75"
-  integrity sha512-2ZW14afgcCQBk3BN8+FWUUCIZg+TKeDFuOMUpDNllTa6sKZ+YQNpxhsrt9abaZohPGsGGOYmk5fzy8D8MHVNBw==
+"@sveltejs/kit@^1.20.4":
+  version "1.20.4"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.20.4.tgz#5082de689ef5ae49dc0185344968c065682cfe0d"
+  integrity sha512-MmAzIuMrP7A+8fqDVbxm6ekGHRHL/+Fk8sQPAzPG4G2TxUDtHdn/WcIxeEqHzARMf0OtGSC+VPyOSFuw2Cy2Mg==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^2.4.1"
     "@types/cookie" "^0.5.1"
@@ -274,7 +274,6 @@
     sade "^1.8.1"
     set-cookie-parser "^2.6.0"
     sirv "^2.0.2"
-    tiny-glob "^0.2.9"
     undici "~5.22.0"
 
 "@sveltejs/vite-plugin-svelte-inspector@^1.0.2":
