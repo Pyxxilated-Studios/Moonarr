@@ -691,10 +691,10 @@ csso@^5.0.5:
   dependencies:
     css-tree "~2.2.0"
 
-daisyui@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-3.4.0.tgz#c178c1985f0692988cda0eb40bdef42395e580ac"
-  integrity sha512-s9EvNxnw/ubCIopKul+3ddASzZG+jMOmZgLJ0BFOVnxFQy6HJ5+EbMx5yY7Ef0cA6qjeUMl88SwhE94WLSLtHQ==
+daisyui@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/daisyui/-/daisyui-3.5.1.tgz#7b53668e2b68007b275fec88268f81b4aeaf3781"
+  integrity sha512-7GG+9QXnr2qQMCqnyFU8TxpaOYJigXiEtmzoivmiiZZHvxqIwYdaMAkgivqTVxEgy3Hot3m1suzZjmt1zUrvmA==
   dependencies:
     colord "^2.9"
     css-selector-tokenizer "^0.8"
