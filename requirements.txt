@@ -18,7 +18,7 @@ pathspec==0.11.2
 platformdirs==3.10.0
 prettytable==3.8.0
 prometheus-client==0.17.1
-pycodestyle==2.10.0
+pycodestyle==2.11.0
 pycryptodome==3.18.0
 pydantic==2.1.1
 pydub==0.25.1
