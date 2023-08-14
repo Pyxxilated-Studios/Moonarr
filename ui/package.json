@@ -15,7 +15,7 @@
 		"@catppuccin/tailwindcss": "^0.1.6",
 		"@fullhuman/postcss-purgecss": "^5.0.0",
 		"@sveltejs/adapter-auto": "^2.1.0",
-		"@sveltejs/kit": "^1.22.4",
+		"@sveltejs/kit": "^1.22.6",
 		"@tailwindcss/typography": "^0.5.9",
 		"@typescript-eslint/eslint-plugin": "^5.62.0",
 		"@typescript-eslint/parser": "^5.62.0",
