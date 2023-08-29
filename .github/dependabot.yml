@@ -7,6 +7,10 @@ updates:
     labels:
       - "api"
       - "dependencies"
+    groups:
+      api-dependencies:
+        patterns:
+          - "*"
 
   - package-ecosystem: "npm"
     directory: "/ui"
@@ -15,6 +19,10 @@ updates:
     labels:
       - "ui"
       - "dependencies"
+    groups:
+      client-dependencies:
+        patterns:
+          - "*"
 
   - package-ecosystem: "github-actions"
     directory: "/"
