@@ -17,13 +17,13 @@
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.25.1",
 		"@tailwindcss/typography": "^0.5.10",
-		"@typescript-eslint/eslint-plugin": "^6.7.4",
-		"@typescript-eslint/parser": "^6.7.4",
+		"@typescript-eslint/eslint-plugin": "^6.7.5",
+		"@typescript-eslint/parser": "^6.7.5",
 		"autoprefixer": "^10.4.16",
-		"daisyui": "^3.8.3",
-		"eslint": "^8.50.0",
+		"daisyui": "^3.9.2",
+		"eslint": "^8.51.0",
 		"eslint-config-prettier": "^9.0.0",
-		"eslint-plugin-svelte": "^2.33.2",
+		"eslint-plugin-svelte": "^2.34.0",
 		"postcss-csso": "^6.0.1",
 		"prettier": "^3.0.3",
 		"prettier-plugin-svelte": "^3.0.3",
@@ -33,7 +33,7 @@
 		"tailwindcss": "^3.3.3",
 		"tslib": "^2.6.2",
 		"typescript": "^5.2.2",
-		"vite": "^4.4.9"
+		"vite": "^4.4.11"
 	},
 	"type": "module"
 }
