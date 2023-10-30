@@ -1,11 +1,11 @@
 aigpy==2022.7.8.1
 anyio==4.0.0
-black==23.10.0
+black==23.10.1
 certifi==2023.7.22
 charset-normalizer==3.3.1
 click==8.1.7
 colorama==0.4.6
-fastapi==0.104.0
+fastapi==0.104.1
 flake8==6.1.0
 h11==0.14.0
 idna==3.4
@@ -17,7 +17,7 @@ packaging==23.2
 pathspec==0.11.2
 platformdirs==3.11.0
 prettytable==3.9.0
-prometheus-client==0.17.1
+prometheus-client==0.18.0
 pycodestyle==2.11.1
 pycryptodome==3.19.0
 pydantic==2.4.2
