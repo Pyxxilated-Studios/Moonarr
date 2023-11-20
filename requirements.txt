@@ -1,7 +1,7 @@
 aigpy==2022.7.8.1
 anyio==4.0.0
 black==23.11.0
-certifi==2023.7.22
+certifi==2023.11.17
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
@@ -20,7 +20,7 @@ prettytable==3.9.0
 prometheus-client==0.18.0
 pycodestyle==2.11.1
 pycryptodome==3.19.0
-pydantic==2.5.0
+pydantic==2.5.1
 pydub==0.25.1
 pyflakes==3.1.0
 requests==2.31.0
@@ -30,4 +30,4 @@ tidal-dl==2022.10.31.1
 typing_extensions==4.8.0
 urllib3==2.1.0
 uvicorn==0.24.0.post1
-wcwidth==0.2.9
+wcwidth==0.2.10
