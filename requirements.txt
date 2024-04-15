@@ -1,6 +1,6 @@
 aigpy==2022.7.8.1
 anyio==4.3.0
-black==24.3.0
+black==24.4.0
 certifi==2024.2.2
 charset-normalizer==3.3.2
 click==8.1.7
@@ -20,7 +20,7 @@ prettytable==3.10.0
 prometheus-client==0.20.0
 pycodestyle==2.11.1
 pycryptodome==3.20.0
-pydantic==2.6.4
+pydantic==2.7.0
 pydub==0.25.1
 pyflakes==3.2.0
 requests==2.31.0
