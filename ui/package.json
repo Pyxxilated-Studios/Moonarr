@@ -14,18 +14,18 @@
 	"devDependencies": {
 		"@catppuccin/tailwindcss": "^0.1.6",
 		"@fullhuman/postcss-purgecss": "^6.0.0",
-		"@sveltejs/adapter-auto": "^3.2.1",
-		"@sveltejs/kit": "^2.5.10",
+		"@sveltejs/adapter-auto": "^3.2.2",
+		"@sveltejs/kit": "^2.5.16",
 		"@tailwindcss/typography": "^0.5.13",
-		"@typescript-eslint/eslint-plugin": "^7.13.0",
-		"@typescript-eslint/parser": "^7.13.0",
+		"@typescript-eslint/eslint-plugin": "^7.13.1",
+		"@typescript-eslint/parser": "^7.13.1",
 		"autoprefixer": "^10.4.19",
 		"daisyui": "^4.12.2",
-		"eslint": "^9.4.0",
+		"eslint": "^9.5.0",
 		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.39.3",
+		"eslint-plugin-svelte": "^2.40.0",
 		"postcss-csso": "^6.0.1",
-		"prettier": "^3.3.1",
+		"prettier": "^3.3.2",
 		"prettier-plugin-svelte": "^3.2.4",
 		"svelte": "^4.2.18",
 		"svelte-adapter-bun": "^0.5.2",
@@ -33,7 +33,7 @@
 		"tailwindcss": "^3.4.4",
 		"tslib": "^2.6.3",
 		"typescript": "^5.4.5",
-		"vite": "^5.2.13"
+		"vite": "^5.3.1"
 	},
 	"type": "module"
 }
