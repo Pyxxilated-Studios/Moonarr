@@ -1,12 +1,12 @@
 aigpy==2022.7.8.1
 anyio==4.4.0
-black==24.4.2
+black==24.8.0
 certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-fastapi==0.111.1
-flake8==7.1.0
+fastapi==0.112.0
+flake8==7.1.1
 h11==0.14.0
 idna==3.7
 MarkupSafe==2.1.5
@@ -18,7 +18,7 @@ pathspec==0.12.1
 platformdirs==4.2.2
 prettytable==3.10.2
 prometheus-client==0.20.0
-pycodestyle==2.12.0
+pycodestyle==2.12.1
 pycryptodome==3.20.0
 pydantic==2.8.2
 pydub==0.25.1
@@ -29,5 +29,5 @@ starlette==0.38.2
 tidal-dl==2022.10.31.1
 typing_extensions==4.12.2
 urllib3==2.2.2
-uvicorn==0.30.3
+uvicorn==0.30.5
 wcwidth==0.2.13
