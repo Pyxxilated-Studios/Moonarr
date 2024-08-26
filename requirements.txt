@@ -5,10 +5,10 @@ certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-fastapi==0.112.1
+fastapi==0.112.2
 flake8==7.1.1
 h11==0.14.0
-idna==3.7
+idna==3.8
 MarkupSafe==2.1.5
 mccabe==0.7.0
 mutagen==1.47.0
