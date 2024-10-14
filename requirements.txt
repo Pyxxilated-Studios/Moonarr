@@ -1,15 +1,15 @@
 aigpy==2022.7.8.1
-anyio==4.6.0
-black==24.8.0
+anyio==4.6.2.post1
+black==24.10.0
 certifi==2024.8.30
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 click==8.1.7
 colorama==0.4.6
-fastapi==0.115.0
+fastapi==0.115.2
 flake8==7.1.1
 h11==0.14.0
 idna==3.10
-MarkupSafe==2.1.5
+MarkupSafe==3.0.1
 mccabe==0.7.0
 mutagen==1.47.0
 mypy-extensions==1.0.0
@@ -29,5 +29,5 @@ starlette==0.39.2
 tidal-dl==2022.10.31.1
 typing_extensions==4.12.2
 urllib3==2.2.3
-uvicorn==0.31.0
+uvicorn==0.31.1
 wcwidth==0.2.13
